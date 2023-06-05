@@ -13,3 +13,7 @@ shuttle-axum = "0.18.0"
 tokio = "1.28.2"
 shuttle-static-folder = "0.18.0"
 tower-http = { version = "0.4.0", features = ["fs"]}
+shuttle-shared-db = { version = "0.18.0", features = ["postgres"]}
+sqlx = { version = "0.6.2", features = ["runtime-tokio-native-tls", "postgres"] }
+nanoid = "0.4.0"
+axum-macros = "0.3.7"

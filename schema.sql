@@ -1,0 +1,4 @@
+CREATE TABLE files (
+  id VARCHAR(6) PRIMARY KEY,
+  path VARCHAR NOT NULL
+)
